@@ -1,0 +1,11 @@
+
+PULLING_MODE = 1
+LISTENER_MODE = 2
+
+bot_token = ""
+incoming_mode = PULLING_MODE
+incoming_endpoint = "message"
+incoming_handler = "0.0.0.0:55555/{}".format(incoming_endpoint)
+base_url = "https://api.telegram.org/bot{}".format(bot_token)
+vel_usr_id = None
+dpt_chat_id = None
